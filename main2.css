@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+body{
+	background-color: #eee;
+	font-family: 'Bad Script', cursive;
+	 border: 10px solid #9400D3;
+	}
+.main{
+	 background-color: #fff;
+	 display: flex;
+	 width: 95%;
+	 max-width: 1000px;
+	 margin: auto;
+	 box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+	 flex-wrap: wrap;
+	 border: 10px solid #A0522D;
+	 }
+.item{
+	max-height: 365px;
+	max-width: 480px;
+	width: calc(95vw - 10px);
+	height: calc(95vw / 2 / 16*9);
+	margin: 5px;
+	background-color: dodgerblue;
+	background-position: center;/* совмищает центер картинки с центром контейнера */
+	-webkit-background-size: cover;/* масштабирует из. в соотвестствии с его размером */
+	background-size: cover;
+	border: 10px solid #FFD700;
+	}
+	.img_link:hover{
+	opacity: 0; /*прозрачность*/
+	transform:scale(10) rotate(720deg); /*уневерсальное свойство*/ /*sale увиличевает*/
+	z-index: 10;
+}
+.heading{
+	font-size: 48px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	border: 10px solid #00FF00;
+	}
+.img_link{
+	display: block;
+	opacity: 0.65;
+	transition: opacity 4.4s ease, transform 2s ease-in;
+}

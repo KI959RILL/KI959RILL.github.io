@@ -1,0 +1,194 @@
+.p1{
+	color:#8C2727;/*цвет шрифта
+*/
+font-size: 50px;
+font-family: 'Kelly Slab', cursive;
+}
+.p2{
+	color:#8C2727;/*цвет шрифта
+	*/
+	font-size: 60px;
+font-family: 'Press Start 2P', cursive;
+
+}
+.p3{
+	color:#1B6042;/*цвет шрифта
+	*/
+	font-size: 100px;
+	font-family: 'Underdog', cursive; /*стиль шрифта
+	*/
+}
+.div1{
+	width: 50%; /*ширина*/
+	text-align: center;
+	margin: auto; /*внешний отступ*/
+	background-color: gold; 
+}
+.div2{
+	width: 35%;
+	text-align: center;
+	margin: auto;
+	background-color: gold; 
+}
+.div3{
+	width: 55%;
+	text-align: center;
+	margin: auto;
+	background-color: gold; 
+}
+.a1{
+	font-size: 50px;
+	font-family: 'Underdog', cursive;
+	text-decoration: none; /*убирает нижнее подчёркивание*/
+	background-color: gold; 
+	text-align: center;
+}
+.index1{
+	font-size: 50px;
+	font-family: 'Underdog', cursive;
+	text-decoration: none; /*убирает нижнее подчёркивание*/
+	background-color: gold; 
+	color: red;
+	display:block; 
+	display:inline-block;
+	border-bottom:  10px solid transparent;
+	transition:0.1s ease-in;
+	text-align: center;
+}
+.index2{
+	font-size: 100px;
+	font-family: 'Underdog', cursive;
+	text-decoration: none; /*убирает нижнее подчёркивание*/
+	background-color: gold; 
+	text-align: center;
+	font-size: 50px;
+}
+.div9{
+	width: 55%;
+	margin: auto; 
+	background-color: gold;
+	box-shadow:  100px 100px 100px 50px rgba(0,0,0,0.5); /*тень*/
+	text-align:center;
+}
+.p5{
+	color:#8C2727;/*цвет шрифта
+	*/
+	font-size: 35px;
+	font-family: 'Underdog', cursive;
+background-color: gold; 
+}
+body{
+	background-color: gold;
+}
+.games2{
+	max-width: 100%; /*махсимальная ширина*/
+	height: auto; /*макс высота*/
+	display: block; /*тношение кортинке*/
+}
+.games3{
+	max-width: 100%; /*махсимальная ширина*/
+	height: auto; /*макс высота*/
+	display: block; /*тношение кортинке*/
+}
+.index1:hover /*стиль елемента при наведении на него мыши*/ { 
+border-bottom-color: red; /*задаёт границу элемента*/
+}
+.ggg{
+	border: 10px solid #323232;
+}
+.ggg:hover{
+	border-bottom-color: green;
+	border-top-color: red;
+	border-right-color: orange;
+	border-left-color:white;
+}
+.O-Game{
+	width: 50%; /*ширина*/
+	text-align: center;
+	margin: auto; /*внешний отступ*/
+	background-color: gold; 
+	padding: 5px;
+}
+.p9{
+color:black;
+font-size: 50px;
+font-family: 'Kelly Slab', cursive;
+}
+.h5{
+	color:black;
+font-size: 40px;
+font-family: 'Kelly Slab', cursive;
+}
+.GTA5{
+		color:black;
+font-size:15px;
+font-family: 'Press Start 2P', cursive;
+}
+img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+}
+.MegaCraft{
+		color:black;
+font-size: 40px;
+}
+.vikipedi{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.main__form{
+	padding: 5px 0;
+	max-width: 300px;
+	width: 50%;
+	text-align: center;
+	float: right;
+	font-size: 10px;
+}
+.form{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+.form__row{
+	padding-bottom: 10px;
+}
+.form__field{
+	padding: 10px;
+	border-radius: 5px;
+	width: 90%;
+	border: none;
+	border: 1px solid #eee;
+}
+.form__field:focus{
+	outline: none;
+}
+.button{
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	background-color: #eee;
+	border-radius: 5px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.button:focus{
+	outline: none;
+}
+.button:hover{
+	opacity: 0.5;
+}
+.form__field:focus::-webkit-input-placeholder{
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.form__field:focus::-moz-placeholder{
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.form__field:focus::-ms-input-placeholder{
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
